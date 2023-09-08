@@ -5,7 +5,7 @@
  *
  * Description: print alphapbet letters in upper and lower case
  *
- * Return: 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
