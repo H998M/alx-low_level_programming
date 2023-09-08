@@ -1,32 +1,20 @@
 #include <stdio.h>
 
-/**
- * main - Entery point
- *
- * Description: print alphapbet letters in upper and lower case
- *
- * Return: Always 0 (success)
-*/
-
 int main(void)
 {
-	char ch = 'a';
-	char CH = 'A';
+    char letter;
 
-	/*prints a -z*/
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
+        putchar(letter);
+    }
 
-	/*prints A - Z*/
-	while (CH <= 'Z')
-	{
-		putchar(CH);
-		ch++;
-	}
-	putchar('\n');
+    for (letter = 'A'; letter <= 'Z'; letter++)
+    {
+        putchar(letter);
+    }
 
-	return (0);
+    putchar('\n');
+
+    return (0);
 }
