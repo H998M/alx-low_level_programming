@@ -5,10 +5,10 @@
 /**
  * main - Entery point
  *
- * Description : print the value of the last digit in the variable n:
+ * Description: print the value of the last digit in the variable n:
  *                                  either it`s greater than 5 or less than 6
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
