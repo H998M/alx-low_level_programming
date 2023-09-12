@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entery point 
+ * main - Entery point
  *
  * Description: prints putchar using putchar prototype
  *
@@ -13,7 +13,7 @@ int main(void)
 	char str[] = "_putchar";
 	int ch;
 
-	for (ch =0; ch < 8; ch++)
+	for (ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
 	_putchar('\n');
 
