@@ -1,8 +1,11 @@
 #include"main.h"
 
 /**
- * print_alphapet - using the _putchar function to print alphabet from a - z
+ * main - Entery point
  *
+ * Description: print_alphapet using the _putchar function to print alphabet
+ *
+ * Return: 0 (succes)
 */
 
 void print_alphabet(void)
