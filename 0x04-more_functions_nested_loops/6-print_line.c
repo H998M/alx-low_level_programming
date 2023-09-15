@@ -20,5 +20,3 @@ void print_lines(int n)
 		_putchar('\n');
 	}
 }
-
-
