@@ -42,7 +42,7 @@ char *cap_string(char *s)
 
 	while (*s)
 	{
-		if (isDelimter(*s))
+		if (isDelimiter(*s))
 			foundDelimit = 1;
 		else if (isLower(*s) && foundDelimit)
 		{
@@ -53,6 +53,5 @@ char *cap_string(char *s)
 			foundDelimit = 0;
 		s++;
 	}
-	return (otr);
+	return (ptr);
 }
-
