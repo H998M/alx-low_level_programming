@@ -5,7 +5,7 @@
  *
  * @a: rows
  * Return: nothing
- */
+*/
 
 void print_chessboard(char (*a)[8])
 {
